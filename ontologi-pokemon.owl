@@ -327,6 +327,12 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1859d656_fe4f_4437_b706_14d713d50d8e"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_373cae98_0617_4e43_8a2c_629468e61f88"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_db576c2f_7150_459c_b664_62db33b74131"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">030 Nidorina</rdfs:label>
     </owl:Class>
     
@@ -340,6 +346,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_51d4d109_ae62_4567_9a5c_f90472f6c515"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1859d656_fe4f_4437_b706_14d713d50d8e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_373cae98_0617_4e43_8a2c_629468e61f88"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_db576c2f_7150_459c_b664_62db33b74131"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">029 Nidoran-F</rdfs:label>
@@ -532,6 +544,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_51d4d109_ae62_4567_9a5c_f90472f6c515"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c1d1a95a_c3e6_473a_8de5_838db5b29a1c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_373cae98_0617_4e43_8a2c_629468e61f88"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_db576c2f_7150_459c_b664_62db33b74131"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">115 Kangaskhan</rdfs:label>
@@ -883,6 +901,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_51d4d109_ae62_4567_9a5c_f90472f6c515"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9cb510c6_9437_4175_affd_47ae12ed002f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_373cae98_0617_4e43_8a2c_629468e61f88"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_db576c2f_7150_459c_b664_62db33b74131"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">031 Nidoqueen</rdfs:label>
@@ -1414,6 +1438,12 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c1d1a95a_c3e6_473a_8de5_838db5b29a1c"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_373cae98_0617_4e43_8a2c_629468e61f88"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_db576c2f_7150_459c_b664_62db33b74131"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">113 Chansey</rdfs:label>
     </owl:Class>
     
@@ -1786,6 +1816,12 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9f005bf4_be6f_4c37_87c0_7ab471fbe30e"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_373cae98_0617_4e43_8a2c_629468e61f88"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_db576c2f_7150_459c_b664_62db33b74131"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">124 Jynx</rdfs:label>
     </owl:Class>
     
@@ -1982,6 +2018,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_51d4d109_ae62_4567_9a5c_f90472f6c515"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c1d1a95a_c3e6_473a_8de5_838db5b29a1c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_373cae98_0617_4e43_8a2c_629468e61f88"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f64ccee3_2b31_406b_a551_1d06cb1bd4cf"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">128 Tauros</rdfs:label>
@@ -2206,6 +2248,12 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1537bae7_3041_4e0b_9348_07adf559cdb4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_373cae98_0617_4e43_8a2c_629468e61f88"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f64ccee3_2b31_406b_a551_1d06cb1bd4cf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">106 Hitmonlee</rdfs:label>
     </owl:Class>
     
@@ -2427,6 +2475,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_51d4d109_ae62_4567_9a5c_f90472f6c515"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1859d656_fe4f_4437_b706_14d713d50d8e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_373cae98_0617_4e43_8a2c_629468e61f88"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f64ccee3_2b31_406b_a551_1d06cb1bd4cf"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">033 Nidorino</rdfs:label>
@@ -2961,6 +3015,12 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9cb510c6_9437_4175_affd_47ae12ed002f"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_373cae98_0617_4e43_8a2c_629468e61f88"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f64ccee3_2b31_406b_a551_1d06cb1bd4cf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">034 Nidoking</rdfs:label>
     </owl:Class>
     
@@ -3062,6 +3122,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_51d4d109_ae62_4567_9a5c_f90472f6c515"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1859d656_fe4f_4437_b706_14d713d50d8e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_373cae98_0617_4e43_8a2c_629468e61f88"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f64ccee3_2b31_406b_a551_1d06cb1bd4cf"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">032 Nidoran-M</rdfs:label>
@@ -3206,6 +3272,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_51d4d109_ae62_4567_9a5c_f90472f6c515"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1537bae7_3041_4e0b_9348_07adf559cdb4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_373cae98_0617_4e43_8a2c_629468e61f88"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_db576c2f_7150_459c_b664_62db33b74131"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">107 Hitmonchan</rdfs:label>

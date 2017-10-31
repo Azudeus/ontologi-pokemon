@@ -42,6 +42,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_315d61b3_229c_46b5_9595_cc90f9204401 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_315d61b3_229c_46b5_9595_cc90f9204401">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_5648e127_1327_4e8a_aef9_f06be0bbd443"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">has_habitat</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_373cae98_0617_4e43_8a2c_629468e61f88 -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_373cae98_0617_4e43_8a2c_629468e61f88">
@@ -184,6 +195,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0068324f_af6a_409b_8999_1a3aad8d4b53 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0068324f_af6a_409b_8999_1a3aad8d4b53">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Tower F4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_00b31e77_3d88_49fd_8e8e_e9cf969d9f31 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_00b31e77_3d88_49fd_8e8e_e9cf969d9f31">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">House with two Trainers (Pewter City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_01273708_a087_4d37_afe8_a5e5555ac459 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_01273708_a087_4d37_afe8_a5e5555ac459">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Gate (Route 2)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0139dd4b_b857_4a99_b4e6_c6493d35ab97 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0139dd4b_b857_4a99_b4e6_c6493d35ab97">
@@ -245,6 +283,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_03db7af9_d4ba_4776_9f60_5a528403b3c3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_03db7af9_d4ba_4776_9f60_5a528403b3c3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 22</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_05739a25_4013_4ded_8b1e_420c5c7619f2 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_05739a25_4013_4ded_8b1e_420c5c7619f2">
@@ -287,6 +334,60 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">050 Diglett</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0656a8e3_ba7d_4016_95c9_46b30dd10a6b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0656a8e3_ba7d_4016_95c9_46b30dd10a6b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Gate 1F (Route 18)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_069ef969_a4ad_4160_b01f_9367db93f3a5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_069ef969_a4ad_4160_b01f_9367db93f3a5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_06dcdcdd_4285_49e6_a291_3f91bc0fced6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_06dcdcdd_4285_49e6_a291_3f91bc0fced6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Entrance to Underground Path (Route 8)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_07244520_658a_4665_98c9_7cb52941350a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_07244520_658a_4665_98c9_7cb52941350a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Gate 2F (Route 11-Route 12)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_07465737_8776_4956_a754_b7807a2e3a81 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_07465737_8776_4956_a754_b7807a2e3a81">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Cerulean City (Gym Badge man)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0802ac13_44eb_49eb_80c3_6d4467b51655 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0802ac13_44eb_49eb_80c3_6d4467b51655">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Saffron City Gate (Route 8)</rdfs:label>
     </owl:Class>
     
 
@@ -385,6 +486,24 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">049 Venomoth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0928eefd_c7dc_45ca_8242_31fb383db15d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0928eefd_c7dc_45ca_8242_31fb383db15d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Tower F3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_09d1706c_ad9d_42ef_b6ca_64b4fd9cd796 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_09d1706c_ad9d_42ef_b6ca_64b4fd9cd796">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">S.S. Anne B1F</rdfs:label>
     </owl:Class>
     
 
@@ -541,6 +660,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0e2a39c2_6388_4d45_9b08_6480965ca49f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0e2a39c2_6388_4d45_9b08_6480965ca49f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 14</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0f359c63_16c2_45f1_bb0e_0c8660ebe36d -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0f359c63_16c2_45f1_bb0e_0c8660ebe36d">
@@ -589,6 +717,24 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">030 Nidorina</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0f6ee945_7ee7_450b_b402_a7a4faad5bd5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0f6ee945_7ee7_450b_b402_a7a4faad5bd5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pallet Town</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1028f040_4039_4a85_944c_6f16cfffa29d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1028f040_4039_4a85_944c_6f16cfffa29d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 18</rdfs:label>
     </owl:Class>
     
 
@@ -697,6 +843,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_12087ad8_bf19_4e61_b66e_c1f6c21301ff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_12087ad8_bf19_4e61_b66e_c1f6c21301ff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_121e9f88_465c_48b0_b4cf_beca2dd86e29 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_121e9f88_465c_48b0_b4cf_beca2dd86e29">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">S.S. Anne (Captain&apos;s room)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_13615128_6190_4960_8a5b_46799e5c4fb4 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_13615128_6190_4960_8a5b_46799e5c4fb4">
@@ -739,6 +903,42 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">035 Clefairy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1396b0a4_3b9a_43be_8e7b_12ef990048e5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1396b0a4_3b9a_43be_8e7b_12ef990048e5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">S.S. Anne (Deck)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_13a603b9_5cb4_47ec_b36f_cbf0c9dd3e53 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_13a603b9_5cb4_47ec_b36f_cbf0c9dd3e53">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Silph Co. (8F)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_13dcddb1_d054_45de_8027_93976f297180 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_13dcddb1_d054_45de_8027_93976f297180">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Mr. Psychic&apos;s house (Saffron City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_13dedb2a_e6bb_4e52_8fb1_1f95e6041b07 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_13dedb2a_e6bb_4e52_8fb1_1f95e6041b07">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Silph Co. 1F</rdfs:label>
     </owl:Class>
     
 
@@ -791,6 +991,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">095 Onix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_14e55b29_39f2_4485_88e1_2ddba6f08943 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_14e55b29_39f2_4485_88e1_2ddba6f08943">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Mt. Moon (B1F)</rdfs:label>
     </owl:Class>
     
 
@@ -908,6 +1117,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_18099a90_7ec3_4d90_b4c2_2f344ca52c36 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_18099a90_7ec3_4d90_b4c2_2f344ca52c36">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Mansion (1F)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1859d656_fe4f_4437_b706_14d713d50d8e -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1859d656_fe4f_4437_b706_14d713d50d8e">
@@ -959,6 +1177,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">143 Snorlax</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_189a05de_1bae_44c1_ae7c_deb0dc2c5dbe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_189a05de_1bae_44c1_ae7c_deb0dc2c5dbe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Diglett&apos;s Cave (Route 2 entrance)</rdfs:label>
     </owl:Class>
     
 
@@ -1018,6 +1245,96 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_19f4376e_b227_4ee5_ab6b_7bb373d7b6ae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_19f4376e_b227_4ee5_ab6b_7bb373d7b6ae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pewter Museum (floor 2)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1a12ab9f_05c6_4661_83f2_1bb075f74143 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1a12ab9f_05c6_4661_83f2_1bb075f74143">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Center (Vermilion City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1a7aa71e_b522_4500_8fdd_dcaa86ca26f9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1a7aa71e_b522_4500_8fdd_dcaa86ca26f9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Cable Club Trade Center(*)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1acd5368_7802_4a32_a0e3_550b040db90f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1acd5368_7802_4a32_a0e3_550b040db90f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Silph Co. (5F)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1adf42fe_2380_4d12_99bc_0d1edc1d9449 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1adf42fe_2380_4d12_99bc_0d1edc1d9449">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Cerulean City</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1b2b9c0d_950b_4772_8a32_058a820863a3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1b2b9c0d_950b_4772_8a32_058a820863a3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Unused Fly location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1c5e899f_21b9_4e52_a42d_3b5a985b6234 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1c5e899f_21b9_4e52_a42d_3b5a985b6234">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Center (Fuchsia City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1d31618b_000d_4256_9275_ce3673363657 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1d31618b_000d_4256_9275_ce3673363657">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Lance&apos;s Elite Four room</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1dc573fc_f1fe_4f9c_a46f_d3df1783a78f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1dc573fc_f1fe_4f9c_a46f_d3df1783a78f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">House 1 (Viridian City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1e67b766_3833_4296_954f_1133ccd23d4d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1e67b766_3833_4296_954f_1133ccd23d4d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Agatha&apos;s room</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1f89cda4_8950_4b52_aace_80276a308693 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1f89cda4_8950_4b52_aace_80276a308693">
@@ -1066,6 +1383,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">048 Venonat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2011ae77_9b65_432e_87b1_2826a526a1e5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2011ae77_9b65_432e_87b1_2826a526a1e5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pewter Museum (floor 1)</rdfs:label>
     </owl:Class>
     
 
@@ -1226,6 +1552,60 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2252dfe8_9e07_4cb2_954f_1a331218888d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2252dfe8_9e07_4cb2_954f_1a331218888d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Gate 2F (Route 15)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_225a0cd2_b12c_452e_b53b_6a48437411f6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_225a0cd2_b12c_452e_b53b_6a48437411f6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Center (Rock Tunnel)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_22fc4210_beda_4efd_a060_611ee7646cc0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_22fc4210_beda_4efd_a060_611ee7646cc0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Hall of Fame</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2346e294_651b_4a2d_970d_bef427826ace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2346e294_651b_4a2d_970d_bef427826ace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Safari Zone (Rest house 2)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_242c16dc_8c12_4ed6_aee2_591d8fb414da -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_242c16dc_8c12_4ed6_aee2_591d8fb414da">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Oak&apos;s Aide House 1 (Route 2)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_250a1f94_3f71_4323_80c6_8beb11a19c20 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_250a1f94_3f71_4323_80c6_8beb11a19c20">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 9</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_27e886bb_8ee6_42ba_8a16_47b47e3bcab3 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_27e886bb_8ee6_42ba_8a16_47b47e3bcab3">
@@ -1268,6 +1648,33 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">053 Persian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_288d465a_2e88_4253_bf01_8236c74c0e27 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_288d465a_2e88_4253_bf01_8236c74c0e27">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Poké Mart (Viridian City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_289bba24_8acd_43eb_8eae_f44852e6ed7a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_289bba24_8acd_43eb_8eae_f44852e6ed7a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Lorelei&apos;s room</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_28de350d_f5eb_4713_9156_3b9d37aaeef0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_28de350d_f5eb_4713_9156_3b9d37aaeef0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Safari Zone (Rest house 1)</rdfs:label>
     </owl:Class>
     
 
@@ -1462,6 +1869,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2c9ea2e2_426b_4d71_aa94_cf17787964fe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2c9ea2e2_426b_4d71_aa94_cf17787964fe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Celadon Department Store 1F</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2ca93788_39b6_4ef0_8832_b736706a4cce -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2ca93788_39b6_4ef0_8832_b736706a4cce">
@@ -1560,6 +1976,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2e9affde_5a68_4b42_94c7_5d401d9c24c1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2e9affde_5a68_4b42_94c7_5d401d9c24c1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Underground Path (Route 7-Route 8)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2edc411a_099b_4b98_bb12_b2ec745c9028 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2edc411a_099b_4b98_bb12_b2ec745c9028">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Tower F1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2f595373_890b_4960_a18f_42af3bbe688d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2f595373_890b_4960_a18f_42af3bbe688d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Silph Co. 11F</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2f86b69f_7ac6_4bab_afba_d6888d19b5e9 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2f86b69f_7ac6_4bab_afba_d6888d19b5e9">
@@ -1602,6 +2045,24 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">116 Horsea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_307966fe_a4aa_4dd7_8273_a58518201c97 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_307966fe_a4aa_4dd7_8273_a58518201c97">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Team Rocket Hideout (B4F)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_30f1a61b_b029_482c_b3ea_2a53e54dc6ce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_30f1a61b_b029_482c_b3ea_2a53e54dc6ce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 15</rdfs:label>
     </owl:Class>
     
 
@@ -1768,6 +2229,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_344d2a8d_fcfb_458b_9859_e1ee061cd061 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_344d2a8d_fcfb_458b_9859_e1ee061cd061">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">House with Pidgey (Vermilion City)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_34815fb3_8c3a_4531_8de9_9f5211d078dc -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_34815fb3_8c3a_4531_8de9_9f5211d078dc">
@@ -1881,6 +2351,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_390d9448_91ee_4d3a_b682_83673948c609 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_390d9448_91ee_4d3a_b682_83673948c609">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Celadon Department Store Rooftop Square</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_391a3953_8d55_4a6d_8b1d_98b3857155c9 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_391a3953_8d55_4a6d_8b1d_98b3857155c9">
@@ -1979,6 +2458,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_39eaf7a5_58dc_4e63_a505_b737842b7de2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_39eaf7a5_58dc_4e63_a505_b737842b7de2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Silph Co. (2F)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3a556ec1_2f73_4805_bfdd_2efebacb279e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3a556ec1_2f73_4805_bfdd_2efebacb279e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Center (Indigo Plateau)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3a639149_f144_438d_97c2_1c5c23aabc01 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3a639149_f144_438d_97c2_1c5c23aabc01">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Gym (Fuchsia City)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3bf851b5_2b63_4939_9bcb_a33805c72254 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3bf851b5_2b63_4939_9bcb_a33805c72254">
@@ -2037,6 +2543,51 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3c6f245d_9f75_442e_8bf5_5094c3271cf5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3c6f245d_9f75_442e_8bf5_5094c3271cf5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Fan Club (Vermilion City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3cfb5621_a5a9_4087_9d99_19a2fcdf7e65 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3cfb5621_a5a9_4087_9d99_19a2fcdf7e65">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Lavender Town</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3d80018f_2361_471f_9e99_72b877921cc2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3d80018f_2361_471f_9e99_72b877921cc2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Viridian City</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3d84183f_5aa4_441c_abe0_009e6b322466 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3d84183f_5aa4_441c_abe0_009e6b322466">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Tower F2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3e0dbda2_16ed_418b_854a_001e5b8f63c1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3e0dbda2_16ed_418b_854a_001e5b8f63c1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Sea Cottage</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3fec91ab_eec8_4fc1_b8d7_ef2344f42828 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3fec91ab_eec8_4fc1_b8d7_ef2344f42828">
@@ -2089,6 +2640,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3ff499f3_7b90_4b1f_ac7c_1e48b4e63ff3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3ff499f3_7b90_4b1f_ac7c_1e48b4e63ff3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">House with Pidgey (Saffron City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4057bece_a679_4014_aa57_062dac0a09a3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4057bece_a679_4014_aa57_062dac0a09a3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Team Rocket Hideout (B2F)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_412dc736_f110_4460_9d5d_b520d5963889 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_412dc736_f110_4460_9d5d_b520d5963889">
@@ -2131,6 +2700,33 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">054 Psyduck</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_413c781e_f5a5_4b20_96f6_2a96162c625b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_413c781e_f5a5_4b20_96f6_2a96162c625b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 25</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4288d605_32a0_4848_99d7_8f652eb840b5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4288d605_32a0_4848_99d7_8f652eb840b5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Poké Mart (Saffron City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4369146d_8b70_4fa2_bea6_c47790713d6b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4369146d_8b70_4fa2_bea6_c47790713d6b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Silph Co. 10F</rdfs:label>
     </owl:Class>
     
 
@@ -2223,6 +2819,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">098 Krabby</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_44e7bba7_05aa_4df7_8ea7_7d3fe2519b7b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_44e7bba7_05aa_4df7_8ea7_7d3fe2519b7b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Vermilion Harbor (Vermilion City)</rdfs:label>
     </owl:Class>
     
 
@@ -2325,6 +2930,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_45a495e0_49b6_46ca_a3b9_06b35b056c2c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_45a495e0_49b6_46ca_a3b9_06b35b056c2c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Underground Path (Route 5-Route 6)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_45cf7ce7_1dc2_4273_b75f_e1e7c53ea470 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_45cf7ce7_1dc2_4273_b75f_e1e7c53ea470">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">House with Team Rocket members (Celadon City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_45e1a3b6_8835_470e_9191_69448668dbda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_45e1a3b6_8835_470e_9191_69448668dbda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Poké Mart (Lavender Town)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_467c5293_b632_4b0e_8bd1_f9c46a7272c6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_467c5293_b632_4b0e_8bd1_f9c46a7272c6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Gate (Route 12-Route 13)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_46a67624_a2b8_4a5f_b614_530969bbd63f -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_46a67624_a2b8_4a5f_b614_530969bbd63f">
@@ -2371,6 +3012,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_47146d4a_b489_4b8d_abaa_19a035c8dd54 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_47146d4a_b489_4b8d_abaa_19a035c8dd54">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Entrance to Underground Path 2 (Route 7)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_474a0276_a082_4056_8b0d_0c8d6da756cd -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_474a0276_a082_4056_8b0d_0c8d6da756cd">
@@ -2413,6 +3063,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">020 Raticate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4886ad8c_1464_4869_9cb0_9765f4714079 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4886ad8c_1464_4869_9cb0_9765f4714079">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Poké Mart (Pewter City)</rdfs:label>
     </owl:Class>
     
 
@@ -2509,6 +3168,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4ada0cd4_b78a_45de_89c8_da0a3d109e66 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4ada0cd4_b78a_45de_89c8_da0a3d109e66">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 10</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4b3a74bc_0b98_46ab_a938_8cc4fc122954 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4b3a74bc_0b98_46ab_a938_8cc4fc122954">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Safari Zone (Prize house)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4b615718_cc96_4cf4_bda4_0ea8cc4e23ab -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4b615718_cc96_4cf4_bda4_0ea8cc4e23ab">
@@ -2523,6 +3200,15 @@
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4ceef13c_52cb_47ff_bcec_8d3deff8ef39">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e1a9b417_271e_437a_aa7d_257616b06ca3"/>
         <rdfs:label xml:lang="en">Bug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4e4a855e_733e_4ecd_8203_6a26b3d41984 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4e4a855e_733e_4ecd_8203_6a26b3d41984">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pewter City</rdfs:label>
     </owl:Class>
     
 
@@ -2579,6 +3265,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4fa7ee63_eaa4_45b0_ac9e_88e75d0022b2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4fa7ee63_eaa4_45b0_ac9e_88e75d0022b2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Secret house (Cycling Road) (Route 16)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5001ecba_086a_4957_b5f2_168ba7d537e5 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5001ecba_086a_4957_b5f2_168ba7d537e5">
@@ -2625,11 +3320,65 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_50363961_e7f1_41cf_882d_8e90f4c2c23d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_50363961_e7f1_41cf_882d_8e90f4c2c23d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Gate (Viridian City/Pewter City) (Route 2)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_504ecaa6_1dab_4ba8_bc92_efca4bccbd7e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_504ecaa6_1dab_4ba8_bc92_efca4bccbd7e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_50db73fe_5f0e_4df8_a646_a761c7f6d5dc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_50db73fe_5f0e_4df8_a646_a761c7f6d5dc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Center (Lavender Town)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_519409e1_67d0_4051_a0f3_26fbb4f7150c -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_519409e1_67d0_4051_a0f3_26fbb4f7150c">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e50ee63c_0115_4040_86fe_a38c3ecb2e85"/>
         <rdfs:label xml:lang="en">Defense_attribute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_51cdc9f6_d66d_4c61_9570_6f05a8f1ea5b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_51cdc9f6_d66d_4c61_9570_6f05a8f1ea5b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Lab (Cinnabar Island)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_525963b7_236f_4cca_ac35_e343be69ccdf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_525963b7_236f_4cca_ac35_e343be69ccdf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Gate 2F (Route 12)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_54899a73_1a9a_4127_907d_9c206a41e224 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_54899a73_1a9a_4127_907d_9c206a41e224">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Safari Zone (Entrance)</rdfs:label>
     </owl:Class>
     
 
@@ -2818,6 +3567,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_57a41c06_4162_46c9_aa9c_f0769ab5ced3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_57a41c06_4162_46c9_aa9c_f0769ab5ced3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 16</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_57dd2e50_4369_47a3_9efa_c30bfca14120 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_57dd2e50_4369_47a3_9efa_c30bfca14120">
@@ -2860,6 +3618,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">137 Porygon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_57fbe910_6b29_4c2d_90a1_b75e5bf4ce42 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_57fbe910_6b29_4c2d_90a1_b75e5bf4ce42">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Silph Co. (4F)</rdfs:label>
     </owl:Class>
     
 
@@ -2920,11 +3687,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5988619f_4838_4c4d_8f16_3efd8f05ccc3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5988619f_4838_4c4d_8f16_3efd8f05ccc3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Unknown Dungeon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_598c2777_d772_4696_b2ef_de4fe201880f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_598c2777_d772_4696_b2ef_de4fe201880f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Entrance to Underground Path (Route 6)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_59e1e704_fa53_442c_8887_ca2c4aef9995 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_59e1e704_fa53_442c_8887_ca2c4aef9995">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e50ee63c_0115_4040_86fe_a38c3ecb2e85"/>
         <rdfs:label xml:lang="en">Special_defense_attribute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_59f8b3da_9433_4acc_a268_cf9b4c37e625 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_59f8b3da_9433_4acc_a268_cf9b4c37e625">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 6</rdfs:label>
     </owl:Class>
     
 
@@ -3021,6 +3815,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_65129268_bbc8_48a2_a969_c255dc8202ea"/>
+        <rdfs:label xml:lang="en">Habitat</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5e335dbe_3e51_4bd8_ab8a_7b5bcb7d198c -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5e335dbe_3e51_4bd8_ab8a_7b5bcb7d198c">
@@ -3113,11 +3916,29 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_60afae2f_b627_459a_a130_c1fb462df6c1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_60afae2f_b627_459a_a130_c1fb462df6c1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Fuchsia City</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_614c0301_e049_47ea_8bc3_287792f53317 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_614c0301_e049_47ea_8bc3_287792f53317">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_58bdaafa_9d02_4b9b_90e6_a3eaee027832"/>
         <rdfs:label xml:lang="en">Stats_value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_615b0848_00cf_4d2a_a09e_7512244c62aa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_615b0848_00cf_4d2a_a09e_7512244c62aa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">S.S. Anne 2F</rdfs:label>
     </owl:Class>
     
 
@@ -3220,6 +4041,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_61cdfe52_3373_4557_a576_3fafe9286f08 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_61cdfe52_3373_4557_a576_3fafe9286f08">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Unknown Dungeon B1F</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_6203a32f_089a_48d9_9126_8811763ca593 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_6203a32f_089a_48d9_9126_8811763ca593">
@@ -3275,11 +4105,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_641aa385_6700_4d9e_a1da_ba36d732d742 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_641aa385_6700_4d9e_a1da_ba36d732d742">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Entrance to Underground Path (Kanto Routes 5-6) (Route 5)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_648d7a1b_7712_4f54_b6d8_8bdeb7d255ed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_648d7a1b_7712_4f54_b6d8_8bdeb7d255ed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Gate 1F (Cycling Road (Route 16)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_65129268_bbc8_48a2_a969_c255dc8202ea -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_65129268_bbc8_48a2_a969_c255dc8202ea">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0cf5f400_8d9f_4514_b8b4_a71cd6d08a3c"/>
         <rdfs:label xml:lang="en">Independent_entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_66707cee_af90_4891_be3b_66637352b69f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_66707cee_af90_4891_be3b_66637352b69f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Celadon Mansion 4F (Eevee building)</rdfs:label>
     </owl:Class>
     
 
@@ -3492,6 +4349,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_68486a48_fead_467b_9850_6c7903f4e95f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_68486a48_fead_467b_9850_6c7903f4e95f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Celadon Department Store 2F</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_6856bf1e_5620_4a16_9b8e_9fb30c74c492 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_6856bf1e_5620_4a16_9b8e_9fb30c74c492">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 12</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_689f5bd3_2be8_4518_ad11_86fd60d70cce -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_689f5bd3_2be8_4518_ad11_86fd60d70cce">
@@ -3586,6 +4461,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">130 Gyarados</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_69be69df_2bd2_48ab_806f_47f167b96512 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_69be69df_2bd2_48ab_806f_47f167b96512">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Rocket Game Corner (Celadon City)</rdfs:label>
     </owl:Class>
     
 
@@ -3697,6 +4581,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_6cfb41c9_4e77_417f_897d_a4b8ff7fe8e8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_6cfb41c9_4e77_417f_897d_a4b8ff7fe8e8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Lab - Room with scientists (Cinnabar Island)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_6df1ce7a_3957_4ff9_8bdb_baa1a68b97a5 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_6df1ce7a_3957_4ff9_8bdb_baa1a68b97a5">
@@ -3739,6 +4632,24 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">147 Dratini</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_6dfcbfc5_005e_4479_9179_6f5dd16df0f5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_6dfcbfc5_005e_4479_9179_6f5dd16df0f5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Mansion (2F)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_6eac776b_54ea_4dbf_ad0a_19ca47723975 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_6eac776b_54ea_4dbf_ad0a_19ca47723975">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Gym (Cerulean City)</rdfs:label>
     </owl:Class>
     
 
@@ -3887,6 +4798,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_7193ea43_f17a_485c_b9ce_9ef41f24df1b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_7193ea43_f17a_485c_b9ce_9ef41f24df1b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Celadon Department Store 4F</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_72a2c0c0_b860_4353_b18c_44993cfe4a14 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_72a2c0c0_b860_4353_b18c_44993cfe4a14">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Center (Route 4)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_739c2e59_50a0_4b41_ab57_a911bcb0e73f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_739c2e59_50a0_4b41_ab57_a911bcb0e73f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_73dbe2ea_8f2f_4581_87f3_67992324104c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_73dbe2ea_8f2f_4581_87f3_67992324104c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Prize corner (Celadon City)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_73f8d2bd_8c0a_4cdc_8f1d_5dc827acf561 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_73f8d2bd_8c0a_4cdc_8f1d_5dc827acf561">
@@ -3935,6 +4882,33 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">016 Pidgey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_74b27d37_2065_4854_a4b8_f949f2eeed9b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_74b27d37_2065_4854_a4b8_f949f2eeed9b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Silph Co. (6F)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_753de7bc_7cb4_4fe7_bbf5_dc4563282fb9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_753de7bc_7cb4_4fe7_bbf5_dc4563282fb9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Entrance to Underground Path 2 (Route 6)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_754a76f6_c1dc_4182_95f7_fca5ad24c845 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_754a76f6_c1dc_4182_95f7_fca5ad24c845">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 13</rdfs:label>
     </owl:Class>
     
 
@@ -4083,11 +5057,29 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_78824c10_7869_4fdb_a62f_e3adfe03053b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_78824c10_7869_4fdb_a62f_e3adfe03053b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Center (Celadon City)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_78a5f2f0_e1a6_4c6c_8182_e8adbc963ceb -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_78a5f2f0_e1a6_4c6c_8182_e8adbc963ceb">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_b2ceda1c_30db_410c_99c9_8951848bf028"/>
         <rdfs:label xml:lang="en">Weakness_attribute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_78efa69d_f6a5_470c_95cf_39bbf793d970 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_78efa69d_f6a5_470c_95cf_39bbf793d970">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Vermilion City</rdfs:label>
     </owl:Class>
     
 
@@ -4251,6 +5243,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_7d480158_3cb7_4a37_8722_938c1ced0d3b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_7d480158_3cb7_4a37_8722_938c1ced0d3b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Poké Mart (Cinnabar Island)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_7d4ccdb6_d16c_428b_8779_47857dde53e8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_7d4ccdb6_d16c_428b_8779_47857dde53e8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_7e2b083b_a572_4eb1_b045_79c558b33d85 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_7e2b083b_a572_4eb1_b045_79c558b33d85">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Poké Mart (Fuchsia City)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_7e9ad2bd_ca69_4e2b_8fe7_946cfda95bdf -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_7e9ad2bd_ca69_4e2b_8fe7_946cfda95bdf">
@@ -4299,6 +5318,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">001 Bulbasaur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_7edd6f0c_5cc8_4919_9aab_d509a5dbc89d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_7edd6f0c_5cc8_4919_9aab_d509a5dbc89d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Sea Route 19</rdfs:label>
     </owl:Class>
     
 
@@ -4407,11 +5435,29 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_81361287_2edd_4d34_b42b_df9adcac8f7e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_81361287_2edd_4d34_b42b_df9adcac8f7e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Silph Co. 9F</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_81dce3bf_5757_4935_9493_f24e1d2ea631 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_81dce3bf_5757_4935_9493_f24e1d2ea631">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_58bdaafa_9d02_4b9b_90e6_a3eaee027832"/>
         <rdfs:label xml:lang="en">Weakness_value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_81f5b794_639e_4ea0_a0cf_7687db221fe7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_81f5b794_639e_4ea0_a0cf_7687db221fe7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Gym (Pewter City)</rdfs:label>
     </owl:Class>
     
 
@@ -4458,6 +5504,78 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">058 Growlithe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_83da9f37_4736_4136_8eef_ab45acd5e825 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_83da9f37_4736_4136_8eef_ab45acd5e825">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Power Plant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_83e6c268_bf67_4709_a649_a3f44489fc93 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_83e6c268_bf67_4709_a649_a3f44489fc93">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Saffron City</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_867ea83a_4652_4cab_8d0d_1d8546f83d95 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_867ea83a_4652_4cab_8d0d_1d8546f83d95">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Gym (Saffron City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_86a78378_f55f_4c73_961e_ab80ecd30aec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_86a78378_f55f_4c73_961e_ab80ecd30aec">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Victory Road</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_86c8a902_aa5b_4079_8339_1237e99be480 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_86c8a902_aa5b_4079_8339_1237e99be480">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Celadon Mansion 3F</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_86cf00ad_495f_4ff4_8969_6d1d2dbfe640 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_86cf00ad_495f_4ff4_8969_6d1d2dbfe640">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Rock Tunnel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8779bd60_e18f_489a_9056_8b049c1c6047 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8779bd60_e18f_489a_9056_8b049c1c6047">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Daycare Center (Route 5)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_88035a43_4ad4_47bd_aaad_9798553d01ea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_88035a43_4ad4_47bd_aaad_9798553d01ea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Seafoam Islands</rdfs:label>
     </owl:Class>
     
 
@@ -4602,6 +5720,24 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">072 Tentacool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_89171aa1_5ec6_4825_a2e7_c67a7b80a8dd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_89171aa1_5ec6_4825_a2e7_c67a7b80a8dd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Entrance to Underground Path (Route 7)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_893edd08_ed4d_42bb_86e3_d5a460f4c9ce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_893edd08_ed4d_42bb_86e3_d5a460f4c9ce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Saffron City Gate (Route 7)</rdfs:label>
     </owl:Class>
     
 
@@ -4762,6 +5898,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8a442a3c_60dd_43fe_a445_5bbb9fe07099 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8a442a3c_60dd_43fe_a445_5bbb9fe07099">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Cinnabar Island</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8ac8ef8e_dce2_431e_be92_684680e39126 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8ac8ef8e_dce2_431e_be92_684680e39126">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Saffron City Gate (Route 5)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8b7b21ef_7b47_4ee1_b25c_f7467e815aa1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8b7b21ef_7b47_4ee1_b25c_f7467e815aa1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Vermilion City Fishing Brother</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8b958000_b730_45c8_8cc4_44a5c441ed62 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8b958000_b730_45c8_8cc4_44a5c441ed62">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Gym (Celadon City)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8bb59999_19a5_4862_8060_d6c4f8836e87 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8bb59999_19a5_4862_8060_d6c4f8836e87">
@@ -4804,6 +5976,24 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">132 Ditto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8f32be15_4532_400d_96e2_825363b94d03 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8f32be15_4532_400d_96e2_825363b94d03">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Saffron City Gate (Route 6)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8f7b058a_2ab5_412b_967c_5909a2807085 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8f7b058a_2ab5_412b_967c_5909a2807085">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Celadon Department Store Lift</rdfs:label>
     </owl:Class>
     
 
@@ -4973,6 +6163,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_93790158_ceaf_4659_b8e6_5f8da9a30305 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_93790158_ceaf_4659_b8e6_5f8da9a30305">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Lab - Trade room (Cinnabar Island)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_937d2562_9bed_47d3_8428_a6ad1a19f05f -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_937d2562_9bed_47d3_8428_a6ad1a19f05f">
@@ -5019,6 +6218,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_93856326_c39c_49ea_a464_1df153f36b16 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_93856326_c39c_49ea_a464_1df153f36b16">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 11</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_93b077a6_5e79_42bb_88cc_0eab46d98c41 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_93b077a6_5e79_42bb_88cc_0eab46d98c41">
@@ -5061,6 +6269,42 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">136 Flareon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_93b77caf_fb7c_49ce_914c_6631771e9abd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_93b77caf_fb7c_49ce_914c_6631771e9abd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Cable Club Colosseum(*)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_93bae949_e4c4_4d17_acba_8dd20066be36 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_93bae949_e4c4_4d17_acba_8dd20066be36">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Gate 1F (Route 15)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_943f4f85_9780_4d5f_b53b_3d71910050fd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_943f4f85_9780_4d5f_b53b_3d71910050fd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">House with NPCs discussing Baoba (Fuchsia City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_948b5261_25e2_4dc8_a212_183fe80dfdc5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_948b5261_25e2_4dc8_a212_183fe80dfdc5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Gate 2F (Route 18)</rdfs:label>
     </owl:Class>
     
 
@@ -5209,11 +6453,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_98502cb9_4f1e_40bb_bc71_1f7fd1e22842 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_98502cb9_4f1e_40bb_bc71_1f7fd1e22842">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Mt. Moon (B2F)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_989a36b6_043a_431f_bda9_7c1de553f241 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_989a36b6_043a_431f_bda9_7c1de553f241">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_b2ceda1c_30db_410c_99c9_8951848bf028"/>
         <rdfs:label xml:lang="en">Category_attribute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_993e694d_1196_41df_aa9f_83da56dcf60f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_993e694d_1196_41df_aa9f_83da56dcf60f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Restaurant (Celadon City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_994de0c3_62b5_4711_b7e9_6397de3f863d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_994de0c3_62b5_4711_b7e9_6397de3f863d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Center (Cinnabar Island)</rdfs:label>
     </owl:Class>
     
 
@@ -5227,11 +6498,56 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9a041609_9f39_465e_ae52_d701d86fefbf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9a041609_9f39_465e_ae52_d701d86fefbf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Silph Co. (3F)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9b6f352f_abe1_4974_94df_a00ee58afcbe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9b6f352f_abe1_4974_94df_a00ee58afcbe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Celadon City</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9cb510c6_9437_4175_affd_47ae12ed002f -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9cb510c6_9437_4175_affd_47ae12ed002f">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e1a9b417_271e_437a_aa7d_257616b06ca3"/>
         <rdfs:label xml:lang="en">Ground</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9dea81dc_4ddd_44d8_8f04_cc4a72065814 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9dea81dc_4ddd_44d8_8f04_cc4a72065814">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 12 Fishing Brother</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9e160260_9fa1_4257_bb23_32d2f1d06a96 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9e160260_9fa1_4257_bb23_32d2f1d06a96">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Viridian Forest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9e440b5d_65fb_4742_b7e9_547c37519b70 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9e440b5d_65fb_4742_b7e9_547c37519b70">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Red&apos;s house (second floor)</rdfs:label>
     </owl:Class>
     
 
@@ -5291,6 +6607,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9f0a7b60_6111_49a4_bc78_16dceba21557 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9f0a7b60_6111_49a4_bc78_16dceba21557">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Silph Co. (7F)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9f183973_c2c5_41a5_8254_a924e0dcf163 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9f183973_c2c5_41a5_8254_a924e0dcf163">
@@ -5333,6 +6658,33 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">119 Seaking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9f689852_4fe9_4db4_bae8_3df43db9cf20 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9f689852_4fe9_4db4_bae8_3df43db9cf20">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Blue&apos;s house</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9f7f9b1c_48da_493c_9571_e0a383b67d82 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9f7f9b1c_48da_493c_9571_e0a383b67d82">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Gate 1F (Route 11-Route 12)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9fb4316c_f4a1_4b7a_9527_0c4002158fcb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9fb4316c_f4a1_4b7a_9527_0c4002158fcb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Invaded house - alternative music (Cerulean City)</rdfs:label>
     </owl:Class>
     
 
@@ -5388,6 +6740,15 @@
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_a0462f73_e495_43b0_b1dd_369800f51e84">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_58bdaafa_9d02_4b9b_90e6_a3eaee027832"/>
         <rdfs:label xml:lang="en">Weight_value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_a15c38e1_573e_478c_9440_ac11afae7c71 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_a15c38e1_573e_478c_9440_ac11afae7c71">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">S.S. Anne 1F (Gentleman&apos;s room)</rdfs:label>
     </owl:Class>
     
 
@@ -5490,6 +6851,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_a4c88b4b_0bdb_4d4f_9889_cb8a2660458e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_a4c88b4b_0bdb_4d4f_9889_cb8a2660458e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Center (Cerulean City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_a614e2ef_f501_4be1_8d1b_d0c85e420ff3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_a614e2ef_f501_4be1_8d1b_d0c85e420ff3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Mansion (B1F)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_a80262df_8322_4d30_a0d2_1e8e15657edd -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_a80262df_8322_4d30_a0d2_1e8e15657edd">
@@ -5532,6 +6911,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">037 Vulpix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_aa67ce83_dfa3_4f75_849c_5bc475112559 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_aa67ce83_dfa3_4f75_849c_5bc475112559">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">House with NPCs discussing Bill (Fuchsia City)</rdfs:label>
     </owl:Class>
     
 
@@ -5584,6 +6972,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">062 Poliwrath</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ab45d158_7476_4f82_818b_76cbcc68a3c0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ab45d158_7476_4f82_818b_76cbcc68a3c0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Celadon Department Store 3F</rdfs:label>
     </owl:Class>
     
 
@@ -5700,6 +7097,42 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">104 Cubone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ac97e73a_b900_45f9_a857_836a680b6290 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ac97e73a_b900_45f9_a857_836a680b6290">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Team Rocket Hideout (B1F)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ae3f7436_83b5_4b62_8a5a_1d0e4e97a8e2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ae3f7436_83b5_4b62_8a5a_1d0e4e97a8e2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Center (Saffron City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_aed7608e_63bc_474f_8616_aef7fb3a9c68 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_aed7608e_63bc_474f_8616_aef7fb3a9c68">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 17</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_af2fb4f5_fa5a_406c_96c1_4a268bc91abd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_af2fb4f5_fa5a_406c_96c1_4a268bc91abd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Team Rocket Hideout (Lift)</rdfs:label>
     </owl:Class>
     
 
@@ -5854,6 +7287,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_b2a03480_0600_47b1_a60d_b7ee70bd3a85 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_b2a03480_0600_47b1_a60d_b7ee70bd3a85">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Gym (Vermilion City)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_b2ceda1c_30db_410c_99c9_8951848bf028 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_b2ceda1c_30db_410c_99c9_8951848bf028">
@@ -5916,11 +7358,29 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_b66c7fd2_07ba_4340_853f_837d4c9934bc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_b66c7fd2_07ba_4340_853f_837d4c9934bc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Victory Road (Route 23 entrance)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ba4577b7_6173_4949_9569_300640aeae4e -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ba4577b7_6173_4949_9569_300640aeae4e">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e1a9b417_271e_437a_aa7d_257616b06ca3"/>
         <rdfs:label xml:lang="en">Rock</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_badd98a9_fd8e_4158_8e8d_b47d4ba8cd63 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_badd98a9_fd8e_4158_8e8d_b47d4ba8cd63">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Mt. Moon (Route 3 entrance)</rdfs:label>
     </owl:Class>
     
 
@@ -6029,6 +7489,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_bbd3c93c_93a7_475e_a5a2_552f2f40edfa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_bbd3c93c_93a7_475e_a5a2_552f2f40edfa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Copycat&apos;s house 1F (Saffron City)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_bd5b0873_682d_4ed9_9ad1_28b1d0c752ad -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_bd5b0873_682d_4ed9_9ad1_28b1d0c752ad">
@@ -6071,6 +7540,33 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">007 Squirtle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_be833501_d2bd_450f_b196_935600f91b04 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_be833501_d2bd_450f_b196_935600f91b04">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Celadon Mansion 4F</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_bf44a04f_de0f_49b1_b3c3_7d2a9e4778d7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_bf44a04f_de0f_49b1_b3c3_7d2a9e4778d7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Tower F5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_bf4912dc_fe17_4193_a5f8_3dd4e2bbce6c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_bf4912dc_fe17_4193_a5f8_3dd4e2bbce6c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Invaded house (Cerulean City)</rdfs:label>
     </owl:Class>
     
 
@@ -6127,11 +7623,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c000d8f8_9ba9_442f_8fb5_6f5b1466dd8e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c000d8f8_9ba9_442f_8fb5_6f5b1466dd8e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Sea Route 21</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c0b22c3b_97e8_40c0_8be9_e896abb28e6c -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c0b22c3b_97e8_40c0_8be9_e896abb28e6c">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e1a9b417_271e_437a_aa7d_257616b06ca3"/>
         <rdfs:label xml:lang="en">Flying</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c0d49e1a_d6d2_4a22_acf7_0e0674d7cfd3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c0d49e1a_d6d2_4a22_acf7_0e0674d7cfd3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Safari Zone (Rest house 4)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c102422e_d51c_4489_80af_1511f9571204 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c102422e_d51c_4489_80af_1511f9571204">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">S.S. Anne 3F</rdfs:label>
     </owl:Class>
     
 
@@ -6182,11 +7705,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c1bc8412_bf6a_4e25_95fc_da63e89b70c1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c1bc8412_bf6a_4e25_95fc_da63e89b70c1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Safari Zone (Rest house 3)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c1d1a95a_c3e6_473a_8de5_838db5b29a1c -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c1d1a95a_c3e6_473a_8de5_838db5b29a1c">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e1a9b417_271e_437a_aa7d_257616b06ca3"/>
         <rdfs:label xml:lang="en">Normal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c263019a_c519_42cd_bda8_7652345274c8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c263019a_c519_42cd_bda8_7652345274c8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Bulbasaur adoption house (Pokémon Yellow)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c2dcc617_19e8_49d5_a2a2_40682de77b6b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c2dcc617_19e8_49d5_a2a2_40682de77b6b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Safari Zone (Area 3)</rdfs:label>
     </owl:Class>
     
 
@@ -6239,6 +7789,33 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">111 Rhyhorn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c4fe7903_ac2f_402b_8c62_d2159db1f197 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c4fe7903_ac2f_402b_8c62_d2159db1f197">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Bruno&apos;s room</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c5098c08_a764_41ab_afcd_74d258d5af72 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c5098c08_a764_41ab_afcd_74d258d5af72">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Gym (Cinnabar Island)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c53f23fc_212f_422d_bd06_721931abea17 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c53f23fc_212f_422d_bd06_721931abea17">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">S.S. Anne (Kitchen)</rdfs:label>
     </owl:Class>
     
 
@@ -6341,6 +7918,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c7be8432_c2b2_4c7f_8810_aa57dbb6e5c6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c7be8432_c2b2_4c7f_8810_aa57dbb6e5c6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 23</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c9b842c8_ab53_421a_a46d_0a4c5ed00cf2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c9b842c8_ab53_421a_a46d_0a4c5ed00cf2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Poké Mart - alternative music (Cinnabar Island)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ca480cd9_9761_4a56_b6b6_8e386fc4afd5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ca480cd9_9761_4a56_b6b6_8e386fc4afd5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 24</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_cb587194_c47f_4137_8bd9_ef81ba654dab -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_cb587194_c47f_4137_8bd9_ef81ba654dab">
@@ -6383,6 +7987,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">066 Machop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_cbfb3b15_3138_4158_b802_98360d29567b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_cbfb3b15_3138_4158_b802_98360d29567b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Celadon Mansion 1F</rdfs:label>
     </owl:Class>
     
 
@@ -6433,6 +8046,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_cd510d3d_748a_42b2_a60e_201931359f46 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_cd510d3d_748a_42b2_a60e_201931359f46">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Safari Zone (Area 2)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ce1e9d38_38a1_47fd_bbc1_e291b734a2b3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ce1e9d38_38a1_47fd_bbc1_e291b734a2b3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Silph Co. Lift</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ce781157_6216_4bb5_ae01_807d9fce7f96 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ce781157_6216_4bb5_ae01_807d9fce7f96">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Celadon Mansion 2F</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ce8e26d8_26b6_4c79_9108_6044a3e47d2a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ce8e26d8_26b6_4c79_9108_6044a3e47d2a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">House with NPC and HM moves advice Vermilion City</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_cebd666f_6021_4f56_b2ed_6355314b6ac1 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_cebd666f_6021_4f56_b2ed_6355314b6ac1">
@@ -6475,6 +8124,33 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">151 Mew</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d0ad46ae_29b9_47fc_877e_61b78447bee8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d0ad46ae_29b9_47fc_877e_61b78447bee8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Professor Oak&apos;s Lab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d199ef42_ee17_4814_8b15_e3c1549ddf5a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d199ef42_ee17_4814_8b15_e3c1549ddf5a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Mr. Fuji&apos;s house (Lavender Town)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d1b319f2_5c43_4a64_bdc4_0e77ed8857ff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d1b319f2_5c43_4a64_bdc4_0e77ed8857ff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">S.S. Anne B1F (Sailor/Fisherman&apos;s room)</rdfs:label>
     </owl:Class>
     
 
@@ -6571,11 +8247,56 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d4a73c9d_63e4_48be_b576_fcc3b6fc308d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d4a73c9d_63e4_48be_b576_fcc3b6fc308d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">School (Viridian City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d5508962_df4a_476c_b0b3_f62861df6fcf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d5508962_df4a_476c_b0b3_f62861df6fcf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Center (Pewter City)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d55c116b_bd65_40be_b020_b38f167ccfb8 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d55c116b_bd65_40be_b020_b38f167ccfb8">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_58bdaafa_9d02_4b9b_90e6_a3eaee027832"/>
         <rdfs:label xml:lang="en">Height_value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d5a96469_0c22_47cc_ab6a_2b2477800b43 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d5a96469_0c22_47cc_ab6a_2b2477800b43">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Poké Mart (Cerulean City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d5e919b1_064c_4b0a_a791_03901e1546f6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d5e919b1_064c_4b0a_a791_03901e1546f6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Poliwhirl for Jynx trade house (Red/Blue)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d608c325_6a01_49cd_b5e9_16fa88b6fe9e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d608c325_6a01_49cd_b5e9_16fa88b6fe9e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Gate 2F (Cycling Road (Route 16)</rdfs:label>
     </owl:Class>
     
 
@@ -6678,11 +8399,29 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d7955c10_979f_463c_9e17_5c11051258a1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d7955c10_979f_463c_9e17_5c11051258a1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">House with NPC discussing Cubone&apos;s mother</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d843e399_cee2_4687_9ae8_3e6e8e62d61f -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d843e399_cee2_4687_9ae8_3e6e8e62d61f">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e1a9b417_271e_437a_aa7d_257616b06ca3"/>
         <rdfs:label xml:lang="en">Ghost</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d8f5bc80_9203_4c04_9999_66b94830a0d1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d8f5bc80_9203_4c04_9999_66b94830a0d1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Name Rater&apos;s house (Lavender Town)</rdfs:label>
     </owl:Class>
     
 
@@ -6735,6 +8474,24 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">003 Venusaur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_da2def8e_90ab_41b7_94f5_eb2b3d1c6da7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_da2def8e_90ab_41b7_94f5_eb2b3d1c6da7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Bike Shop (Cerulean City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_da54e7b1_846e_4ec7_ae8d_34846e4f6573 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_da54e7b1_846e_4ec7_ae8d_34846e4f6573">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Tower F6</rdfs:label>
     </owl:Class>
     
 
@@ -6795,6 +8552,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_db798f88_293a_4859_bd16_f0f6ee7ef9af -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_db798f88_293a_4859_bd16_f0f6ee7ef9af">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Hotel (Celadon City)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_dcd98730_4ce7_426e_b4ab_aa3188c2b53d -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_dcd98730_4ce7_426e_b4ab_aa3188c2b53d">
@@ -6837,6 +8603,42 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">125 Electabuzz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ddc5e522_6396_4db9_b192_132d56c1c2cb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ddc5e522_6396_4db9_b192_132d56c1c2cb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon League</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_df62a95e_9bd1_4b35_bd29_cc3dd0665f0a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_df62a95e_9bd1_4b35_bd29_cc3dd0665f0a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Tower F7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_dffc0375_96a2_45b6_b881_c680ca9a0b2e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_dffc0375_96a2_45b6_b881_c680ca9a0b2e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Gate (Route 2/Viridian Forest) (Route 2)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e0428526_0e6f_4bca_9857_465e36d8f7d3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e0428526_0e6f_4bca_9857_465e36d8f7d3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Summer Beach House (Pokémon Yellow)</rdfs:label>
     </owl:Class>
     
 
@@ -6954,6 +8756,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e4428245_896a_4dc6_94b2_7644761d9761 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e4428245_896a_4dc6_94b2_7644761d9761">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">S.S. Anne 1F</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e46cc0c5_7b16_433c_9120_b049766ab467 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e46cc0c5_7b16_433c_9120_b049766ab467">
@@ -7000,11 +8811,65 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e475cf33_a683_4154_806b_445cd42baefe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e475cf33_a683_4154_806b_445cd42baefe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Unused (Rock Tunnel)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e50ee63c_0115_4040_86fe_a38c3ecb2e85 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e50ee63c_0115_4040_86fe_a38c3ecb2e85">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_b2ceda1c_30db_410c_99c9_8951848bf028"/>
         <rdfs:label xml:lang="en">Stats_attribute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e5a0d5a7_86db_45b9_a353_22221dbd0287 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e5a0d5a7_86db_45b9_a353_22221dbd0287">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Sea Route 20</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e76c6787_75d6_40b2_b789_c0790c246f55 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e76c6787_75d6_40b2_b789_c0790c246f55">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e7fe55b0_91cd_45bd_a2d7_18ff122656c6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e7fe55b0_91cd_45bd_a2d7_18ff122656c6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Poké Mart (Vermilion City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e859ce30_07fb_464f_93ad_413c5999ec9a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e859ce30_07fb_464f_93ad_413c5999ec9a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Fuchsia City Fishing Brother</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ea4f8860_7689_43c0_9d10_e0488ece5a77 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ea4f8860_7689_43c0_9d10_e0488ece5a77">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">S.S. Anne 2F (Gentleman&apos;s room)</rdfs:label>
     </owl:Class>
     
 
@@ -7060,6 +8925,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">117 Seadra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ec0cbd12_18c6_4efa_ba64_62004a33d29f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ec0cbd12_18c6_4efa_ba64_62004a33d29f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Unknown Dungeon 1F</rdfs:label>
     </owl:Class>
     
 
@@ -7208,6 +9082,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ed507a46_c9af_4908_8373_1ee98b84514b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ed507a46_c9af_4908_8373_1ee98b84514b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Blue&apos;s room</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_edad39d7_3de2_4fa8_808b_abfbb0c5ea7f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_edad39d7_3de2_4fa8_808b_abfbb0c5ea7f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Diglett&apos;s Cave (Vermilion City entrance)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ee0e960a_87fa_48e7_8f70_d2cac84c811b -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ee0e960a_87fa_48e7_8f70_d2cac84c811b">
@@ -7256,6 +9148,24 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">017 Pidgeotto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_eea2b416_a182_43bd_821b_88f3b6f788e5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_eea2b416_a182_43bd_821b_88f3b6f788e5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Warden&apos;s house (Fuchsia City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ef1709ec_1585_4db5_b026_690461884c5a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ef1709ec_1585_4db5_b026_690461884c5a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Center (Viridian City)</rdfs:label>
     </owl:Class>
     
 
@@ -7311,6 +9221,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">068 Machamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_efb9abd1_093f_44d6_8aba_a95eea4e151b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_efb9abd1_093f_44d6_8aba_a95eea4e151b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Copycat&apos;s house 2F (Saffron City)</rdfs:label>
     </owl:Class>
     
 
@@ -7373,6 +9292,60 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f2227c0e_477e_4a84_9b68_9f6dbc68108f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f2227c0e_477e_4a84_9b68_9f6dbc68108f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Gym (Viridian City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f251c209_5217_45c9_961c_283621aeb095 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f251c209_5217_45c9_961c_283621aeb095">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Route 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f2ce7a6c_93b1_471b_b361_3d1473b49ca3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f2ce7a6c_93b1_471b_b361_3d1473b49ca3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Safari Zone gate (Fuchsia City)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f2d0dca6_297b_4558_91cc_68a86b54c01c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f2d0dca6_297b_4558_91cc_68a86b54c01c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Diglett&apos;s Cave</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f2dba45c_8d06_466e_9da1_869b961906d4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f2dba45c_8d06_466e_9da1_869b961906d4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Team Rocket Hideout (B3F)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f322b006_8c83_47a2_ae21_c14e6b9bc884 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f322b006_8c83_47a2_ae21_c14e6b9bc884">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Lab - Fossil resurrection room (Cinnabar Island)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f407da9b_4c7f_4dae_9c24_aa7fda303875 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f407da9b_4c7f_4dae_9c24_aa7fda303875">
@@ -7425,11 +9398,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f56f9b81_15a7_48f4_9c1f_af4f316e279c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f56f9b81_15a7_48f4_9c1f_af4f316e279c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Safari Zone (Area 1)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f5cfbbc6_c57e_47a6_8043_604b11ffe903 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f5cfbbc6_c57e_47a6_8043_604b11ffe903">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_65129268_bbc8_48a2_a969_c255dc8202ea"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_315d61b3_229c_46b5_9595_cc90f9204401"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_51d4d109_ae62_4567_9a5c_f90472f6c515"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e1a9b417_271e_437a_aa7d_257616b06ca3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Pokemon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f6288472_f599_47b8_be7e_7e3ef683de01 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f6288472_f599_47b8_be7e_7e3ef683de01">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Fighting Dojo (Saffron City)</rdfs:label>
     </owl:Class>
     
 
@@ -7495,6 +9499,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f765a7e1_c05a_479d_9833_0c017311f8c2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f765a7e1_c05a_479d_9833_0c017311f8c2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Red&apos;s house (first floor)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f8c987ae_7dee_4670_b0a8_c6ce4bdf752b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f8c987ae_7dee_4670_b0a8_c6ce4bdf752b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">House with disobedient Nidoran♂ (Pewter City)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f947ade4_bac1_46cb_ab2b_827cdba459cb -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f947ade4_bac1_46cb_ab2b_827cdba459cb">
@@ -7543,6 +9565,24 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">141 Kabutops</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f9b27782_7760_4662_9764_32f090ec619f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f9b27782_7760_4662_9764_32f090ec619f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Celadon Department Store 5F</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f9ca083b_185a_4abb_85be_4f9a60236300 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f9ca083b_185a_4abb_85be_4f9a60236300">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Badges check gate (Route 22)</rdfs:label>
     </owl:Class>
     
 
@@ -7862,6 +9902,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_feafe7ac_8af1_466d_a543_1793c06699c6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_feafe7ac_8af1_466d_a543_1793c06699c6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+        <rdfs:label xml:lang="en">Pokémon Mansion (3F)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ff7e1201_ca8a_4e4d_b372_b1ded4f033cd -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ff7e1201_ca8a_4e4d_b372_b1ded4f033cd">
@@ -7974,6 +10023,235 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0068324f_af6a_409b_8999_1a3aad8d4b53"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_00b31e77_3d88_49fd_8e8e_e9cf969d9f31"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_01273708_a087_4d37_afe8_a5e5555ac459"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_03db7af9_d4ba_4776_9f60_5a528403b3c3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0656a8e3_ba7d_4016_95c9_46b30dd10a6b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_069ef969_a4ad_4160_b01f_9367db93f3a5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_06dcdcdd_4285_49e6_a291_3f91bc0fced6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_07244520_658a_4665_98c9_7cb52941350a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_07465737_8776_4956_a754_b7807a2e3a81"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0802ac13_44eb_49eb_80c3_6d4467b51655"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0928eefd_c7dc_45ca_8242_31fb383db15d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_09d1706c_ad9d_42ef_b6ca_64b4fd9cd796"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0e2a39c2_6388_4d45_9b08_6480965ca49f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_0f6ee945_7ee7_450b_b402_a7a4faad5bd5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1028f040_4039_4a85_944c_6f16cfffa29d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_12087ad8_bf19_4e61_b66e_c1f6c21301ff"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_121e9f88_465c_48b0_b4cf_beca2dd86e29"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1396b0a4_3b9a_43be_8e7b_12ef990048e5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_13a603b9_5cb4_47ec_b36f_cbf0c9dd3e53"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_13dcddb1_d054_45de_8027_93976f297180"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_13dedb2a_e6bb_4e52_8fb1_1f95e6041b07"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_14e55b29_39f2_4485_88e1_2ddba6f08943"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_18099a90_7ec3_4d90_b4c2_2f344ca52c36"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_189a05de_1bae_44c1_ae7c_deb0dc2c5dbe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_19f4376e_b227_4ee5_ab6b_7bb373d7b6ae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1a12ab9f_05c6_4661_83f2_1bb075f74143"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1a7aa71e_b522_4500_8fdd_dcaa86ca26f9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1acd5368_7802_4a32_a0e3_550b040db90f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1adf42fe_2380_4d12_99bc_0d1edc1d9449"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1b2b9c0d_950b_4772_8a32_058a820863a3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1c5e899f_21b9_4e52_a42d_3b5a985b6234"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1d31618b_000d_4256_9275_ce3673363657"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1dc573fc_f1fe_4f9c_a46f_d3df1783a78f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1e67b766_3833_4296_954f_1133ccd23d4d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2011ae77_9b65_432e_87b1_2826a526a1e5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2252dfe8_9e07_4cb2_954f_1a331218888d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_225a0cd2_b12c_452e_b53b_6a48437411f6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_22fc4210_beda_4efd_a060_611ee7646cc0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2346e294_651b_4a2d_970d_bef427826ace"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_242c16dc_8c12_4ed6_aee2_591d8fb414da"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_250a1f94_3f71_4323_80c6_8beb11a19c20"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_288d465a_2e88_4253_bf01_8236c74c0e27"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_289bba24_8acd_43eb_8eae_f44852e6ed7a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_28de350d_f5eb_4713_9156_3b9d37aaeef0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2c9ea2e2_426b_4d71_aa94_cf17787964fe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2e9affde_5a68_4b42_94c7_5d401d9c24c1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2edc411a_099b_4b98_bb12_b2ec745c9028"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_2f595373_890b_4960_a18f_42af3bbe688d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_307966fe_a4aa_4dd7_8273_a58518201c97"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_30f1a61b_b029_482c_b3ea_2a53e54dc6ce"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_344d2a8d_fcfb_458b_9859_e1ee061cd061"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_390d9448_91ee_4d3a_b682_83673948c609"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_39eaf7a5_58dc_4e63_a505_b737842b7de2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3a556ec1_2f73_4805_bfdd_2efebacb279e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3a639149_f144_438d_97c2_1c5c23aabc01"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3c6f245d_9f75_442e_8bf5_5094c3271cf5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3cfb5621_a5a9_4087_9d99_19a2fcdf7e65"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3d80018f_2361_471f_9e99_72b877921cc2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3d84183f_5aa4_441c_abe0_009e6b322466"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3e0dbda2_16ed_418b_854a_001e5b8f63c1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3ff499f3_7b90_4b1f_ac7c_1e48b4e63ff3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4057bece_a679_4014_aa57_062dac0a09a3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_413c781e_f5a5_4b20_96f6_2a96162c625b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4288d605_32a0_4848_99d7_8f652eb840b5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4369146d_8b70_4fa2_bea6_c47790713d6b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_44e7bba7_05aa_4df7_8ea7_7d3fe2519b7b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_45a495e0_49b6_46ca_a3b9_06b35b056c2c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_45cf7ce7_1dc2_4273_b75f_e1e7c53ea470"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_45e1a3b6_8835_470e_9191_69448668dbda"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_467c5293_b632_4b0e_8bd1_f9c46a7272c6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_47146d4a_b489_4b8d_abaa_19a035c8dd54"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4886ad8c_1464_4869_9cb0_9765f4714079"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4ada0cd4_b78a_45de_89c8_da0a3d109e66"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4b3a74bc_0b98_46ab_a938_8cc4fc122954"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4e4a855e_733e_4ecd_8203_6a26b3d41984"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4fa7ee63_eaa4_45b0_ac9e_88e75d0022b2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_50363961_e7f1_41cf_882d_8e90f4c2c23d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_504ecaa6_1dab_4ba8_bc92_efca4bccbd7e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_50db73fe_5f0e_4df8_a646_a761c7f6d5dc"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_51cdc9f6_d66d_4c61_9570_6f05a8f1ea5b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_525963b7_236f_4cca_ac35_e343be69ccdf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_54899a73_1a9a_4127_907d_9c206a41e224"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_57a41c06_4162_46c9_aa9c_f0769ab5ced3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_57fbe910_6b29_4c2d_90a1_b75e5bf4ce42"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5988619f_4838_4c4d_8f16_3efd8f05ccc3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_598c2777_d772_4696_b2ef_de4fe201880f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_59f8b3da_9433_4acc_a268_cf9b4c37e625"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_60afae2f_b627_459a_a130_c1fb462df6c1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_615b0848_00cf_4d2a_a09e_7512244c62aa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_61cdfe52_3373_4557_a576_3fafe9286f08"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_641aa385_6700_4d9e_a1da_ba36d732d742"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_648d7a1b_7712_4f54_b6d8_8bdeb7d255ed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_66707cee_af90_4891_be3b_66637352b69f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_68486a48_fead_467b_9850_6c7903f4e95f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_6856bf1e_5620_4a16_9b8e_9fb30c74c492"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_69be69df_2bd2_48ab_806f_47f167b96512"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_6cfb41c9_4e77_417f_897d_a4b8ff7fe8e8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_6dfcbfc5_005e_4479_9179_6f5dd16df0f5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_6eac776b_54ea_4dbf_ad0a_19ca47723975"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_7193ea43_f17a_485c_b9ce_9ef41f24df1b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_72a2c0c0_b860_4353_b18c_44993cfe4a14"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_739c2e59_50a0_4b41_ab57_a911bcb0e73f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_73dbe2ea_8f2f_4581_87f3_67992324104c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_74b27d37_2065_4854_a4b8_f949f2eeed9b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_753de7bc_7cb4_4fe7_bbf5_dc4563282fb9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_754a76f6_c1dc_4182_95f7_fca5ad24c845"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_78824c10_7869_4fdb_a62f_e3adfe03053b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_78efa69d_f6a5_470c_95cf_39bbf793d970"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_7d480158_3cb7_4a37_8722_938c1ced0d3b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_7d4ccdb6_d16c_428b_8779_47857dde53e8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_7e2b083b_a572_4eb1_b045_79c558b33d85"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_7edd6f0c_5cc8_4919_9aab_d509a5dbc89d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_81361287_2edd_4d34_b42b_df9adcac8f7e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_81f5b794_639e_4ea0_a0cf_7687db221fe7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_83da9f37_4736_4136_8eef_ab45acd5e825"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_83e6c268_bf67_4709_a649_a3f44489fc93"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_867ea83a_4652_4cab_8d0d_1d8546f83d95"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_86a78378_f55f_4c73_961e_ab80ecd30aec"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_86c8a902_aa5b_4079_8339_1237e99be480"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_86cf00ad_495f_4ff4_8969_6d1d2dbfe640"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8779bd60_e18f_489a_9056_8b049c1c6047"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_88035a43_4ad4_47bd_aaad_9798553d01ea"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_89171aa1_5ec6_4825_a2e7_c67a7b80a8dd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_893edd08_ed4d_42bb_86e3_d5a460f4c9ce"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8a442a3c_60dd_43fe_a445_5bbb9fe07099"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8ac8ef8e_dce2_431e_be92_684680e39126"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8b7b21ef_7b47_4ee1_b25c_f7467e815aa1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8b958000_b730_45c8_8cc4_44a5c441ed62"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8f32be15_4532_400d_96e2_825363b94d03"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8f7b058a_2ab5_412b_967c_5909a2807085"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_93790158_ceaf_4659_b8e6_5f8da9a30305"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_93856326_c39c_49ea_a464_1df153f36b16"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_93b77caf_fb7c_49ce_914c_6631771e9abd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_93bae949_e4c4_4d17_acba_8dd20066be36"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_943f4f85_9780_4d5f_b53b_3d71910050fd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_948b5261_25e2_4dc8_a212_183fe80dfdc5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_98502cb9_4f1e_40bb_bc71_1f7fd1e22842"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_993e694d_1196_41df_aa9f_83da56dcf60f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_994de0c3_62b5_4711_b7e9_6397de3f863d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9a041609_9f39_465e_ae52_d701d86fefbf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9b6f352f_abe1_4974_94df_a00ee58afcbe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9dea81dc_4ddd_44d8_8f04_cc4a72065814"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9e160260_9fa1_4257_bb23_32d2f1d06a96"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9e440b5d_65fb_4742_b7e9_547c37519b70"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9f0a7b60_6111_49a4_bc78_16dceba21557"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9f689852_4fe9_4db4_bae8_3df43db9cf20"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9f7f9b1c_48da_493c_9571_e0a383b67d82"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9fb4316c_f4a1_4b7a_9527_0c4002158fcb"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_a15c38e1_573e_478c_9440_ac11afae7c71"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_a4c88b4b_0bdb_4d4f_9889_cb8a2660458e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_a614e2ef_f501_4be1_8d1b_d0c85e420ff3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_aa67ce83_dfa3_4f75_849c_5bc475112559"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ab45d158_7476_4f82_818b_76cbcc68a3c0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ac97e73a_b900_45f9_a857_836a680b6290"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ae3f7436_83b5_4b62_8a5a_1d0e4e97a8e2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_aed7608e_63bc_474f_8616_aef7fb3a9c68"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_af2fb4f5_fa5a_406c_96c1_4a268bc91abd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_b2a03480_0600_47b1_a60d_b7ee70bd3a85"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_b66c7fd2_07ba_4340_853f_837d4c9934bc"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_badd98a9_fd8e_4158_8e8d_b47d4ba8cd63"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_bbd3c93c_93a7_475e_a5a2_552f2f40edfa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_be833501_d2bd_450f_b196_935600f91b04"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_bf44a04f_de0f_49b1_b3c3_7d2a9e4778d7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_bf4912dc_fe17_4193_a5f8_3dd4e2bbce6c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c000d8f8_9ba9_442f_8fb5_6f5b1466dd8e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c0d49e1a_d6d2_4a22_acf7_0e0674d7cfd3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c102422e_d51c_4489_80af_1511f9571204"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c1bc8412_bf6a_4e25_95fc_da63e89b70c1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c263019a_c519_42cd_bda8_7652345274c8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c2dcc617_19e8_49d5_a2a2_40682de77b6b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c4fe7903_ac2f_402b_8c62_d2159db1f197"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c5098c08_a764_41ab_afcd_74d258d5af72"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c53f23fc_212f_422d_bd06_721931abea17"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c7be8432_c2b2_4c7f_8810_aa57dbb6e5c6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c9b842c8_ab53_421a_a46d_0a4c5ed00cf2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ca480cd9_9761_4a56_b6b6_8e386fc4afd5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_cbfb3b15_3138_4158_b802_98360d29567b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_cd510d3d_748a_42b2_a60e_201931359f46"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ce1e9d38_38a1_47fd_bbc1_e291b734a2b3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ce781157_6216_4bb5_ae01_807d9fce7f96"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ce8e26d8_26b6_4c79_9108_6044a3e47d2a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d0ad46ae_29b9_47fc_877e_61b78447bee8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d199ef42_ee17_4814_8b15_e3c1549ddf5a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d1b319f2_5c43_4a64_bdc4_0e77ed8857ff"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d4a73c9d_63e4_48be_b576_fcc3b6fc308d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d5508962_df4a_476c_b0b3_f62861df6fcf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d5a96469_0c22_47cc_ab6a_2b2477800b43"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d5e919b1_064c_4b0a_a791_03901e1546f6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d608c325_6a01_49cd_b5e9_16fa88b6fe9e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d7955c10_979f_463c_9e17_5c11051258a1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d8f5bc80_9203_4c04_9999_66b94830a0d1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_da2def8e_90ab_41b7_94f5_eb2b3d1c6da7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_da54e7b1_846e_4ec7_ae8d_34846e4f6573"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_db798f88_293a_4859_bd16_f0f6ee7ef9af"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ddc5e522_6396_4db9_b192_132d56c1c2cb"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_df62a95e_9bd1_4b35_bd29_cc3dd0665f0a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_dffc0375_96a2_45b6_b881_c680ca9a0b2e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e0428526_0e6f_4bca_9857_465e36d8f7d3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e4428245_896a_4dc6_94b2_7644761d9761"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e475cf33_a683_4154_806b_445cd42baefe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e5a0d5a7_86db_45b9_a353_22221dbd0287"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e76c6787_75d6_40b2_b789_c0790c246f55"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e7fe55b0_91cd_45bd_a2d7_18ff122656c6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e859ce30_07fb_464f_93ad_413c5999ec9a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ea4f8860_7689_43c0_9d10_e0488ece5a77"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ec0cbd12_18c6_4efa_ba64_62004a33d29f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ed507a46_c9af_4908_8373_1ee98b84514b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_edad39d7_3de2_4fa8_808b_abfbb0c5ea7f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_eea2b416_a182_43bd_821b_88f3b6f788e5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ef1709ec_1585_4db5_b026_690461884c5a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_efb9abd1_093f_44d6_8aba_a95eea4e151b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f2227c0e_477e_4a84_9b68_9f6dbc68108f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f251c209_5217_45c9_961c_283621aeb095"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f2ce7a6c_93b1_471b_b361_3d1473b49ca3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f2d0dca6_297b_4558_91cc_68a86b54c01c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f2dba45c_8d06_466e_9da1_869b961906d4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f322b006_8c83_47a2_ae21_c14e6b9bc884"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f56f9b81_15a7_48f4_9c1f_af4f316e279c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f6288472_f599_47b8_be7e_7e3ef683de01"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f765a7e1_c05a_479d_9833_0c017311f8c2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f8c987ae_7dee_4670_b0a8_c6ce4bdf752b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f9b27782_7760_4662_9764_32f090ec619f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f9ca083b_185a_4abb_85be_4f9a60236300"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_feafe7ac_8af1_466d_a543_1793c06699c6"/>
+        </owl:members>
+    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
@@ -8139,6 +10417,14 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_519409e1_67d0_4051_a0f3_26fbb4f7150c"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_59e1e704_fa53_442c_8887_ca2c4aef9995"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_fe530545_6857_4180_a3b6_6d2706b2a75e"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_5c28731b_035b_43e3_a683_39fbc9ab4adf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_b2ceda1c_30db_410c_99c9_8951848bf028"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f5cfbbc6_c57e_47a6_8043_604b11ffe903"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>

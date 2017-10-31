@@ -26,6 +26,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_034b70db_d787_4e85_8a41_220824ac7a2e">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_5648e127_1327_4e8a_aef9_f06be0bbd443"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:label xml:lang="en">has_height_value</rdfs:label>
     </owl:ObjectProperty>
     
@@ -35,6 +36,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_19c6ab77_5e5c_4d52_a653_824dcc3fee41">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_5648e127_1327_4e8a_aef9_f06be0bbd443"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:label xml:lang="en">has_weight_value</rdfs:label>
     </owl:ObjectProperty>
     
@@ -44,6 +46,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_373cae98_0617_4e43_8a2c_629468e61f88">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_5648e127_1327_4e8a_aef9_f06be0bbd443"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:label xml:lang="en">has_gender_value</rdfs:label>
     </owl:ObjectProperty>
     
@@ -53,6 +56,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_4684b8ca_f417_43ac_aefb_948ad63618da">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_d6c1f54e_24fc_4268_babf_b7ec1bf5dcd5"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:label xml:lang="en">has_property</rdfs:label>
     </owl:ObjectProperty>
     
@@ -71,6 +75,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_51d4d109_ae62_4567_9a5c_f90472f6c515">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_5648e127_1327_4e8a_aef9_f06be0bbd443"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:label xml:lang="en">has_type_value</rdfs:label>
     </owl:ObjectProperty>
     
@@ -116,6 +121,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_a92550e7_502e_4ad0_be14_5d1f37ede87d">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_5648e127_1327_4e8a_aef9_f06be0bbd443"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:label xml:lang="en">has_category_value</rdfs:label>
     </owl:ObjectProperty>
     
@@ -142,7 +148,7 @@
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_c828c8c5_ec54_476e_af9e_cc58df74283e -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_c828c8c5_ec54_476e_af9e_cc58df74283e">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_5abe11e9_cecf_45ea_88e1_a6883db607a8"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_9e25fce6_bd05_4918_a1d9_bef86e503a45"/>
         <rdfs:label xml:lang="en">has_special_defense_value</rdfs:label>
     </owl:ObjectProperty>
     
@@ -161,6 +167,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_d6e80a88_d4d0_403b_8ad7_fbe6b87415c0">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_5648e127_1327_4e8a_aef9_f06be0bbd443"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:label xml:lang="en">has_weakness_value</rdfs:label>
     </owl:ObjectProperty>
     
@@ -7421,13 +7428,6 @@
     <!-- http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f5cfbbc6_c57e_47a6_8043_604b11ffe903 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_f5cfbbc6_c57e_47a6_8043_604b11ffe903">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLObjectProperty_51d4d109_ae62_4567_9a5c_f90472f6c515"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_e1a9b417_271e_437a_aa7d_257616b06ca3"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_65129268_bbc8_48a2_a969_c255dc8202ea"/>
         <rdfs:label xml:lang="en">Pokemon</rdfs:label>
     </owl:Class>
@@ -8128,47 +8128,6 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_fd036472_ebd7_4fac_8083_2cf6b3e5447f"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ff7e1201_ca8a_4e4d_b372_b1ded4f033cd"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ff9a8c89_c4cf_4f7c_8750_a6db8fe4e8d2"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_01da72f3_b972_4870_b58d_780b427cdb51"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1537bae7_3041_4e0b_9348_07adf559cdb4"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1859d656_fe4f_4437_b706_14d713d50d8e"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_313f9c1e_f35c_42bd_b344_e5986693c2ac"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3295ffc3_5c9b_474d_be4b_cabdc78634ff"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4ceef13c_52cb_47ff_bcec_8d3deff8ef39"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_630441f2_0435_4b51_b21f_7b7a121abdbc"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_8f9f0088_29a0_4f26_b6c0_98afb06bee37"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_99c4baf7_57af_4a42_9a4f_8549addae53f"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9cb510c6_9437_4175_affd_47ae12ed002f"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9f005bf4_be6f_4c37_87c0_7ab471fbe30e"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ba4577b7_6173_4949_9569_300640aeae4e"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c0b22c3b_97e8_40c0_8be9_e896abb28e6c"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c1d1a95a_c3e6_473a_8de5_838db5b29a1c"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d843e399_cee2_4687_9ae8_3e6e8e62d61f"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ef6e68e2_9e34_4a87_9904_5e673b779a66"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_01da72f3_b972_4870_b58d_780b427cdb51"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1537bae7_3041_4e0b_9348_07adf559cdb4"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_1859d656_fe4f_4437_b706_14d713d50d8e"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_313f9c1e_f35c_42bd_b344_e5986693c2ac"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_3295ffc3_5c9b_474d_be4b_cabdc78634ff"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_4ceef13c_52cb_47ff_bcec_8d3deff8ef39"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_630441f2_0435_4b51_b21f_7b7a121abdbc"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_99c4baf7_57af_4a42_9a4f_8549addae53f"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9cb510c6_9437_4175_affd_47ae12ed002f"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_9f005bf4_be6f_4c37_87c0_7ab471fbe30e"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ba4577b7_6173_4949_9569_300640aeae4e"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c0b22c3b_97e8_40c0_8be9_e896abb28e6c"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_c1d1a95a_c3e6_473a_8de5_838db5b29a1c"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_d843e399_cee2_4687_9ae8_3e6e8e62d61f"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/personal/ontologies/2017/9/ontologi-pokemon#OWLClass_ef6e68e2_9e34_4a87_9904_5e673b779a66"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>

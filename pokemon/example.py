@@ -1,36 +1,53 @@
+import dill
+import operator
+import random
+
 from pokemon import Pokemon
 from type import getWeaknessPoint
-import random # dummy
-import operator
 
-# create Pokemon
-poke1 = Pokemon("Venusaur", ["GRASS", "POISON"], ["NORMAL", "GRASS", "POISON"], 80, 82, 83, 100, 80)
-poke2 = Pokemon("Charizard", ["FIRE", "FLYING"], ["NORMAL", "FIRE"], 78, 84, 78, 85, 100)
-# print(poke1)
-# print(poke2)
 
-all_pokemons = [poke1, poke2]
+# load all Pokemons
+with open('pokemons.pkl', 'rb') as fi:
+	all_pokemons = dill.load(fi)
+for p in all_pokemons:
+	p.preprocessed()
+poke1 = Pokemon("Bulbasaur", ["GRASS", "POISON"], ["NORMAL", "GRASS", "POISON"], 80, 82, 83, 100, 80)
+
+# get 6 random enemy pokemons
+enemy_pokemons = []
+for i in range(6):
+	enemy_pokemons.append(all_pokemons[random.randint(0, len(all_pokemons)-1)])
 
 weights = {
 	'hp': 0.3,
 	'attack': 0.4,
-	'defense': 0.2,
+	'defense': 0.1,
 	'special': 0.4,
 	'speed': 0.1
+}
+
+weights_point = {
+	'strong_point': 0.33,
+	'weak_point': 0.33,
+	'stat_point': 0
 }
 
 def calculate_stat(en_po, our_po):
 	stat = (our_po.hp - en_po.hp)*weights['hp'] + (our_po.attack - en_po.attack)*weights['attack'] + \
 		(our_po.defense - en_po.defense)*weights['defense'] + (our_po.special - en_po.special)*weights['special'] + \
 		(our_po.speed - en_po.speed)*weights['speed']
-	print("Stat: "+str(stat))
 	return stat
+
+def calculate_point(pokemon):
+	point = pokemon['strong_point'] * weights_point['strong_point'] + pokemon['weak_point'] * weights_point['weak_point'] + \
+		pokemon['stat_point'] * weights_point['stat_point']
+	return point
 
 # MAIN ALGORITHM
 def predict(enemy_pokemons):
-	# if len(enemy_pokemons) is not 6:
-	# 	print("ERR: enemy_pokemons must have length = 6")
-	# 	return None
+	if len(enemy_pokemons) is not 6:
+		print("ERR: enemy_pokemons must have length = 6")
+		return None
 
 	our_pokemons = []
 	# 
@@ -41,38 +58,51 @@ def predict(enemy_pokemons):
 		for al_po in all_pokemons:
 			strongs = [getWeaknessPoint(en_po.types, mo_ty) for mo_ty in al_po.move_types]
 			weaks = [getWeaknessPoint(al_po.types, mo_ty) for mo_ty in en_po.move_types]
+			if sum(weaks) == 0:
+				weak_point = 0
+			else:
+				weak_point = float(1) / (sum(weaks)/len(weaks))
 			predictions[al_po.name] = {
-				'pokemon': al_po, 
-				'strong_point': sum(strongs),
-				'weak_point': float(1) / sum(weaks),
-				'stat_point': calculate_stat(en_po, al_po)
+				'pokemon': al_po, 								
+				'strong_point': sum(strongs)/len(strongs),     			# effectiveness of this pokemon's moves against enemy					
+				'weak_point': weak_point,					# effectiveness of enemy pokemon's moves against this pokemon
+				'stat_point': calculate_stat(en_po, al_po)	# difference in stats * weight	
 				}
+			predictions[al_po.name]['all_point'] = calculate_point(predictions[al_po.name])
 
 		# sort based on points
-		sorted_predictions = sorted(predictions.items(), key=lambda x: x[1]['stat_point'])
-		print(sorted_predictions)
+		sorted_predictions = sorted(predictions.items(), key=lambda x: x[1]['all_point'])
 		all_predictions.append(sorted_predictions)
 
 	used_pokemons = []
 	for i in range(len(enemy_pokemons)):
 		found = False
-		j = 0
+		j = len(all_predictions[i]) - 1
 		while not found:
 			if all_predictions[i][j][0] not in used_pokemons:
 				found = True
 			else:
-				j += 1
+				j -= 1
 
 		pokemon_name = all_predictions[i][j][0]
 		used_pokemons.append(pokemon_name)
 		our_pokemons.append(all_predictions[i][j][1])
 
-
 	return our_pokemons
 
-pred = predict([poke1, poke2])
-for p in pred:
+# 
+pred = predict(enemy_pokemons)
+for i in range(len(pred)):
+	p = enemy_pokemons[i]
+	print("----- POKEMON %s -----" % i)
+	print(p)
+	print("----- VS -----\n")
+	p = pred[i]
 	print(p['pokemon'])
-	print(p['strong_point'])
-	print(p['weak_point'])
-	print(p['stat_point'])
+	print("Strong Point: %s " % p['strong_point'])
+	print("Weak Point: %s " % p['weak_point'])
+	print("Stat Point: %s " % p['stat_point'])
+	print("All Point: %s " % p['all_point'])
+	print("----- END POKEMON %s -----" % i)
+
+

@@ -9,5 +9,12 @@ class Pokemon:
 		self.special = special 			# int
 		self.speed = speed 				# int
 
+	def preprocessed(self):
+		self.hp = int(self.hp) 					# int
+		self.attack = int(self.attack) 			# int
+		self.defense = int(self.defense) 			# int
+		self.special = int(self.special) 			# int
+		self.speed = int(self.speed) 				# int
+
 	def __str__(self):
 		return "\nName: %s\nTypes: %s\nMove Types: %s\nHP: %s\nATK: %s\nDEF: %s\nSPC: %s\nSPD: %s\n" % (self.name, ', '.join(self.types), ', '.join(self.move_types), self.hp, self.attack, self.defense, self.special, self.speed)

@@ -9,9 +9,14 @@ from type import getWeaknessPoint
 # load all Pokemons
 with open('pokemons.pkl', 'rb') as fi:
 	all_pokemons = dill.load(fi)
+pikachu = Pokemon("025 Pikachu", ["ELECTRIC"], ["ELECTRIC", "NORMAL", "PSYCHIC"], 35, 55, 30, 50, 90)
+psyduck = Pokemon("054 Psyduck", ["WATER"], ["NORMAL", "PSYCHIC", "WATER"], 50, 52, 48, 50, 55)
+all_pokemons.insert(24, pikachu)
+all_pokemons.insert(53, psyduck)
+
 for p in all_pokemons:
 	p.preprocessed()
-poke1 = Pokemon("Bulbasaur", ["GRASS", "POISON"], ["NORMAL", "GRASS", "POISON"], 80, 82, 83, 100, 80)
+	# print(p.name)
 
 # get 6 random enemy pokemons
 enemy_pokemons = []
@@ -91,18 +96,24 @@ def predict(enemy_pokemons):
 	return our_pokemons
 
 # 
-pred = predict(enemy_pokemons)
-for i in range(len(pred)):
+preds = predict(enemy_pokemons)
+for i in range(len(preds)):
 	p = enemy_pokemons[i]
-	print("----- POKEMON %s -----" % i)
-	print(p)
-	print("----- VS -----\n")
-	p = pred[i]
-	print(p['pokemon'])
-	print("Strong Point: %s " % p['strong_point'])
-	print("Weak Point: %s " % p['weak_point'])
-	print("Stat Point: %s " % p['stat_point'])
-	print("All Point: %s " % p['all_point'])
-	print("----- END POKEMON %s -----" % i)
+	pred = preds[i]['pokemon']
+	print("+--------------------------------------- POKEMON %s -----------------------------------+" % str(i+1))
+	print("| Name |"+p.name.ljust(37)+" | "+pred.name.ljust(37)+" | ")
+	print("| Type |"+', '.join(p.types).ljust(37)+" | "+', '.join(pred.types).ljust(37)+" | ")
+	print("| MTyp |"+', '.join(p.move_types).ljust(37)+" | "+', '.join(pred.move_types).ljust(37)+" | ")
+	print("| HP   |"+str(p.hp).ljust(37)+" | "+str(pred.hp).ljust(37)+" | ")
+	print("| ATK  |"+str(p.attack).ljust(37)+" | "+str(pred.attack).ljust(37)+" | ")
+	print("| DEF  |"+str(p.defense).ljust(37)+" | "+str(pred.defense).ljust(37)+" | ")
+	print("| SPC  |"+str(p.special).ljust(37)+" | "+str(pred.special).ljust(37)+" | ")
+	print("| SPD  |"+str(p.speed).ljust(37)+" | "+str(pred.speed).ljust(37)+" | ")
+	print("+-------------------------------------------------------------------------------------+")
+	print("| Strong Point".ljust(15)+": "+str(preds[i]['strong_point']).ljust(68)+" |")
+	print("| Weak Point".ljust(15) +": "+ str(preds[i]['weak_point']).ljust(68)+" |")
+	print("| Stat Point".ljust(15) +": "+ str(preds[i]['stat_point']).ljust(68)+" |")
+	print("| All Point".ljust(15) +": "+ str(preds[i]['all_point']).ljust(68)+" |")
+	print("+-------------------------------------------------------------------------------------+\n")
 
 
